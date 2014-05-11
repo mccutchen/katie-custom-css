@@ -1,0 +1,52 @@
+#header nav li:hover {
+  background-color: #c00;
+}
+#header nav li:hover a {
+  color: #fff;
+}
+#header nav li a {
+  display: block;
+}
+#header nav li.active-link,
+#header nav li a.active-folder{
+  font-weight: bold;
+}
+
+
+#navBlock nav.main-nav .folder:hover {
+  background-color: #c00;
+  color: #fff !important;
+}
+
+#navBlock nav.main-nav .folder:hover .subnav,
+#navBlock nav.main-nav .folder:focus .subnav {
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+#header nav .folder:hover > .active-folder {
+  color: #fff;
+}
+
+
+#navBlock nav.main-nav .folder .subnav ul {
+  display: block;
+  background-color: rgba(204, 0, 0, .5);
+  padding: 0;
+  border: none;
+}
+
+#navBlock nav.main-nav .folder .subnav li a {
+  display: block;
+  white-space: nowrap;
+  padding: .25em 0.8em;
+}
+
+#navBlock nav.main-nav .folder .subnav .active-link {
+  font-weight: normal;
+}
+
+#footer {
+  display: none;
+}
